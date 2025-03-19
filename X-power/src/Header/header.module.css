@@ -1,0 +1,104 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 90;
+  padding: 0rem 5rem;
+  margin-top: 2rem;
+}
+.brandSections {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+}
+.brand {
+  font-weight: 800;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+}
+.sections {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 75%;
+}
+.sections li {
+  all: unset;
+  transition: 0.15s;
+}
+.sections a {
+  all: unset;
+  color: var(--text-color);
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: 0.15s;
+}
+.sections a:hover {
+  color: var(--main-color);
+  cursor: pointer;
+}
+.sections li:active {
+  transform: scale(0.9);
+}
+.enter {
+  font-family: var(--main-font);
+  font-size: 1.2rem;
+  font-weight: 600;
+  background-color: var(--main-color);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 1.8rem;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 0.3rem;
+  border: none;
+  transition: 0.15s;
+}
+.enter:after {
+  content: " ";
+  width: 0%;
+  height: 100%;
+  background-color: var(--body-color);
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+  right: 0;
+}
+.enter:hover::after {
+  right: auto;
+  left: 0;
+  width: 100%;
+}
+.enter:active {
+  transform: scale(0.9);
+}
+.enter span {
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  color: #fff;
+  font-size: 1.125em;
+  font-weight: 700;
+  z-index: 20;
+  transition: all 0.3s ease-in-out;
+}
+.enter:hover span {
+  color: var(--text-color);
+  animation: scaleUp 0.3s ease-in-out;
+}
+@keyframes scaleUp {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

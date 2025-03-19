@@ -1,0 +1,117 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100;
+  height: 38rem;
+  padding: 0rem;
+  margin-top: 15rem;
+}
+.social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  height: 20%;
+  padding: 0rem 5rem;
+  background-color: var(--cardBg-color);
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+.pap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 89.5%;
+  height: 85%;
+  padding: 4rem 5rem 3rem 5rem;
+  background-color: var(--main-color);
+}
+.phoneNumber {
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+}
+.links p {
+  font-size: 1.4rem;
+}
+.links img {
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0.5rem;
+  /* From https://css.glass */
+  background: rgba(107, 107, 107, 0.55);
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.1px);
+  -webkit-backdrop-filter: blur(9.1px);
+  transition: 0.15s;
+}
+.links img:hover {
+  background-color: var(--main-color);
+  cursor: pointer;
+}
+.copyright {
+  color: var(--text-color);
+  font-size: 1.2rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 15%;
+  background-color: var(--body-color);
+  border-radius: 0.2rem;
+}
+.customerGuid {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  height: 100%;
+}
+.guid {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  height: 60%;
+}
+.guid ul {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+.guid li {
+  all: unset;
+  color: var(--body-color);
+  font-size: 1rem;
+  font-weight: 600;
+  opacity: 0.7;
+  transition: 0.15s;
+}
+.guid li:hover {
+  opacity: 1;
+  color: var(--text-color);
+  cursor: pointer;
+}
+.guid li:active {
+  transform: scale(0.9);
+}
+.zarinPal {
+  width: 20rem;
+  height: 20rem;
+}

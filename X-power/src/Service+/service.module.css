@@ -1,0 +1,83 @@
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 90;
+  height: 42rem;
+  padding: 0rem 5rem;
+  margin-top: 15rem;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 7rem;
+}
+.title h2 {
+  color: var(--main-color);
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.title h1 {
+  font-size: 2rem;
+  font-weight: 900;
+}
+.services {
+  display: grid;
+  column-gap: 2%;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--cardBg-color);
+  height: 23rem;
+  padding: 3.5rem 3rem;
+  border-radius: 0.8rem;
+  transition: 0.15s;
+}
+.card:hover {
+  background-color: var(--cardHoverBg-color);
+  cursor: pointer;
+}
+.imgHeadline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 35%;
+}
+.imgHeadline h1 {
+  font-size: 1.8rem;
+}
+.card p {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.subject {
+  font-family: var(--main-font);
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: transparent;
+  color: var(--text-color);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+  width: 48%;
+  transition: 0.15s;
+  cursor: pointer;
+}
+.subject:active {
+  transform: scale(0.9);
+}
+.subject img {
+  margin-bottom: -0.2rem;
+}

@@ -1,0 +1,35 @@
+:root {
+  --body-color: #423d90;
+  --main-color: #6f4efd;
+  --cardHoverBg-color: #624fb7;
+  --text-color: white;
+  --gray: #c4c4c4b3;
+  --cardBg-color: #282641;
+  --text-gradient: linear-gradient(to left, #ffffff, #bdadff);
+  --product-gradient: linear-gradient(to right, #060b25, #060b2500);
+  --main-font: Vazirmatn;
+}
+* {
+  user-select: none;
+  scroll-behavior: smooth;
+  direction: rtl;
+  margin: 0rem;
+}
+body {
+  font-family: var(--main-font);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #191736;
+  margin: 0rem;
+  width: 100%;
+  padding: 0rem;
+  height: 390rem;
+  scroll-behavior: smooth;
+}
+p,
+a,
+h1 {
+  color: var(--text-color);
+}
