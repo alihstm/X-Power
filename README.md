@@ -2,9 +2,10 @@
 A modern and clean website built with React for a fitness platform called X.Power.
 This project is designed for fitness enthusiasts to explore informative blogs on workouts, nutrition, and wellness, as well as access premium fitness programs and gear 🏆.
 
-Visit Here 👉 [https://fitness-website-9wam8dveo-alihstms-projects.vercel.app/]
+Visit Here 👉 https://x-power-azure.vercel.app/
 
-![X.Power](https://github.com/user-attachments/assets/67a69d05-d40b-4aaa-b1dc-b33715fbd9ae)
+![FireShot Capture 001 - X POWER - localhost](https://github.com/user-attachments/assets/cfe9cd45-7467-4cb6-84a2-4d1863e7678f)
+
 
 ## Features ✨
 - Clean and minimalistic UI/UX design.
